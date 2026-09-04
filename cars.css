@@ -1,0 +1,46 @@
+    /* =========================================================
+   GLOBAL
+========================================================= */
+
+:root {
+    --primary: #f4511e;
+    --dark: #111111;
+    --dark-light: #1b1b1b;
+    --text: #666666;
+    --light: #f7f7f7;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: var(--text);
+    line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: var(--dark);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
